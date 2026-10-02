@@ -4,20 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hola Mundo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@500&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      margin: 0;
+      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
-      margin: 0;
-      background: #f0f4f8;
+      background: linear-gradient(135deg, #ffd6e8, #e8d5ff);
+      font-family: 'Quicksand', sans-serif;
     }
-    h1 { color: #2b6cb0; }
+    .tarjeta {
+      background: white;
+      padding: 40px 60px;
+      border-radius: 30px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(255, 105, 180, 0.3);
+    }
+    h1 {
+      font-family: 'Pacifico', cursive;
+      color: #ff4d94;
+      font-size: 3rem;
+      margin: 0 0 10px;
+    }
+    p {
+      color: #b07acc;
+      font-size: 1.2rem;
+      margin: 0;
+    }
   </style>
 </head>
 <body>
-  <h1>¡Hola Mundo!</h1>
+  <div class="tarjeta">
+    <h1>¡Hola Mundo! </h1>
+    <p>Mi primera página en la nube ✨</p>
+  </div>
 </body>
 </html>
